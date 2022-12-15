@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>h1</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+</head>
+
+<body>
+    <h1>You are provided with two numbers A and B Your task is to add these two numbers.</h1>
+    <pre>
+        const AddTwoNumbers = (a,b) => {
+            if(1<=a && b<=500){
+              return(a+b);
+              
+            }
+              else{
+                console.log("error input");
+                
+              }
+          };
+    </pre>
+    <br>
+    <h1>Find if the conditions are obeyed or not?</h1>
+    <pre>
+        
+const Is_Valid = (a,b) => {
+
+    if(a<10 && a>b){ 
+      return "true";
+      } 
+         else { return "false"; }
+      
+    };
+    return(Is_Valid);
+    
+    
+    </pre>
+    <h1>
+        Check the conditons
+    </h1>
+    <pre>
+    const Check = (A, B) => 
+{
+  if (A%10===0 && B%10===0 ){ return true; }
+  else if  (A%10===0 || B%10===0 ){ return true;}
+  else{ return false;}
+
+}; 
+</pre>
+    <h1>Find the first digit of a 4 digit number</h1>
+    <pre>
+    const First_Digit = (n) => {
+       if (1000<=n && n<=9999){
+         n=n/1000
+         return (n)
+        console.log(n)
+       }
+       else{ return 0}
+       
+    };
+    </pre>
+    <h1>Find the last digit of a 4 digit number</h1>
+    <pre>const Last_Digit = (n) => {
+
+    return n%10;
+    };</pre>
+    <h1>
+        Fintd the reminder ?
+    </h1>
+    <pre>
+    
+const Find_the_remainder = (a,b) => {
+    if (1<=a && b<=1000){
+      return ( b%a);
+    }
+    else{ return false;}
+  
+  }; 
+  
+</pre>
+    <h1>
+        multiply two numbers
+    </h1>
+    <pre>
+    const Multiply_two_number = (a,b) => {
+      
+      if (1<=a && b<=30){
+        return ( b*a);
+      }
+      else{ return false;}
+    
+    }; </pre>
+    <h1>
+        calculate avarage
+    </h1>
+    <pre>
+    
+const Sum = (A, B, C) => 
+{
+
+  if (0<=A && C<=100){
+    return (A+B+C);
+  }
+  
+  else{ return false;}
+
+}; 
+
+
+const Average = (A, B, C, n) => 
+{
+ if (0<=A && C<=100){
+   n=A+B+C;
+    return (n/3);
+  }
+  
+  else{ return false;}
+
+};
+</pre>
+
+
+
+
+
+</body>
+
+</html>
